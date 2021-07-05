@@ -54,7 +54,7 @@ function responder()
 
     if(isNaN(respuesta))
     {
-        alert("Error. Sólo número");
+        alert("Error. Solo n\u00FAmero");
     }
 
     else

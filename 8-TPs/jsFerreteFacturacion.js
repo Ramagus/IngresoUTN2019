@@ -11,17 +11,17 @@ function sumar()
 
     if(precio1 <= 0 || isNaN(precio1))
     {
-        alert("Error. Ingrese un precio válido para el precio 1");
+        alert("Error. Ingrese un precio v\u00E1lido para el precio 1");
     }
 
     if(precio2 <= 0 || isNaN(precio2))
     {
-        alert("Error. Ingrese un precio válido para el precio 2");
+        alert("Error. Ingrese un precio v\u00E1lido para el precio 2");
     }
 
     if(precio3 <= 0 || isNaN(precio3))
     {
-        alert("Error. Ingrese un precio válido para el precio 3");
+        alert("Error. Ingrese un precio v\u00E1lido para el precio 3");
     }
 
     if(precio1 > 0 && precio2 > 0 && precio3 > 0)
@@ -45,17 +45,17 @@ function promedio()
 
     if(precio1 <= 0 || isNaN(precio1))
     {
-        alert("Error. Ingrese un precio válido para el precio 1");
+        alert("Error. Ingrese un precio v\u00E1lido para el precio 1");
     }
 
     if(precio2 <= 0 || isNaN(precio2))
     {
-        alert("Error. Ingrese un precio válido para el precio 2");
+        alert("Error. Ingrese un precio v\u00E1lido para el precio 2");
     }
 
     if(precio3 <= 0 || isNaN(precio3))
     {
-        alert("Error. Ingrese un precio válido para el precio 3");
+        alert("Error. Ingrese un precio v\u00E1lido para el precio 3");
     }
 
     if(precio1 > 0 && precio2 > 0 && precio3 > 0)
@@ -81,17 +81,17 @@ function precioFinal()
 
     if(precio1 <= 0 || isNaN(precio1))
     {
-        alert("Error. Ingrese un precio válido para el precio 1");
+        alert("Error. Ingrese un precio v\u00E1lido para el precio 1");
     }
 
     if(precio2 <= 0 || isNaN(precio2))
     {
-        alert("Error. Ingrese un precio válido para el precio 2");
+        alert("Error. Ingrese un precio v\u00E1lido para el precio 2");
     }
 
     if(precio3 <= 0 || isNaN(precio3))
     {
-        alert("Error. Ingrese un precio válido para el precio 3");
+        alert("Error. Ingrese un precio v\u00E1lido para el precio 3");
     }
 
     if(precio1 > 0 && precio2 > 0 && precio3 > 0)

@@ -38,7 +38,7 @@ function comenzar()
 
 function piedra()
 {
-	alert("La Máquina seleccionó: " + eleccionMaquina);
+	alert("La M\u00E1quina seleccion\u00F3: " + eleccionMaquina);
 	
 	eleccionHumano = "Piedra";
 	
@@ -58,7 +58,7 @@ function piedra()
 	
 	else
 	{
-		alert("Ganó la Máquina");
+		alert("Gan\u00F3 la M\u00E1quina");
 		
 		ContadorDePerdidas++;
 	}
@@ -68,7 +68,7 @@ function piedra()
 
 function papel()
 {
-	alert("La Máquina seleccionó: " + eleccionMaquina);
+	alert("La M\u00E1quina seleccion\u00F3: " + eleccionMaquina);
 	
 	eleccionHumano = "Papel";
 	
@@ -88,7 +88,7 @@ function papel()
 	
 	else
 	{
-		alert("Ganó la Máquina");
+		alert("Gan\u00F3 la M\u00E1quina");
 		
 		ContadorDePerdidas++;
 	}
@@ -98,7 +98,7 @@ function papel()
 
 function tijera()
 {
-	alert("La Máquina seleccionó: " + eleccionMaquina);
+	alert("La M\u00E1quina seleccion\u00F3: " + eleccionMaquina);
 	
 	eleccionHumano = "Tijera";
 	
@@ -118,7 +118,7 @@ function tijera()
 	
 	else
 	{
-		alert("Ganó la Máquina");
+		alert("Gan\u00F3 la M\u00E1quina");
 		
 		ContadorDePerdidas++;
 	}

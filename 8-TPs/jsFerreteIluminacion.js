@@ -14,12 +14,12 @@ function calcularPrecio()
 
     if(cantidad <= 0 || isNaN(cantidad))
     {
-        alert("Error. Ingrese una cantidad válida");
+        alert("Error. Ingrese una cantidad v\u00E1lida");
     }
 
     else
     {
-        /**Método IF*/
+        /**Metodo IF*/
         
         /*if(cantidad >= 6)
         {
@@ -41,7 +41,7 @@ function calcularPrecio()
 
         else if(cantidad == 4)
         {
-            if(marca == "ArgentinaLuz" || marca == "FelipeLamparas")
+            if(marca == "ArgentinaLuz" || marca == "FelipeL\u00E1mparas")
             {
                 descuento = precio * 25 / 100;
             }
@@ -59,7 +59,7 @@ function calcularPrecio()
                 descuento = precio * 15 / 100;
             }
 
-            else if(marca == "FelipeLamparas")
+            else if(marca == "FelipeL\u00E1mparas")
             {
                 descuento = precio * 10 / 100;
             }
@@ -75,7 +75,7 @@ function calcularPrecio()
             descuento = 0;
         }*/
 
-        /**Método SWITCH-IF*/
+        /**Metodo SWITCH-IF*/
 
         switch(cantidad)
         {
@@ -93,7 +93,7 @@ function calcularPrecio()
                     descuento = precio * 15 / 100;
                 }
     
-                else if(marca == "FelipeLamparas")
+                else if(marca == "FelipeL\u00E1mparas")
                 {
                     descuento = precio * 10 / 100;
                 }
@@ -107,7 +107,7 @@ function calcularPrecio()
 
             case 4:
 
-                if(marca == "ArgentinaLuz" || marca == "FelipeLamparas")
+                if(marca == "ArgentinaLuz" || marca == "FelipeL\u00E1mparas")
                 {
                     descuento = precio * 25 / 100;
                 }
@@ -150,7 +150,7 @@ function calcularPrecio()
 
             importeFinal = importeFinal + iibb;
 
-            alert("Importe Final: $" + importeFinal.toFixed(2) + ". De IIBB, usted pagó $" + iibb.toFixed(2));
+            alert("Importe Final: $" + importeFinal.toFixed(2) + ". De IIBB, usted pag\u00F3 $" + iibb.toFixed(2));
         }
 
         else

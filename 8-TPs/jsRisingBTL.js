@@ -11,14 +11,14 @@ function comenzarIngreso()
 
     while(edad < 18 || edad > 90 || isNaN(edad))
     {
-        edad = parseInt(prompt("Error. Ingrese una edad válida"));
+        edad = parseInt(prompt("Error. Ingrese una edad v\u00E1lida"));
     }
 
     sexo = prompt("Ingrese el sexo").toUpperCase();
 
     while(sexo != 'M' && sexo != 'F')
     {
-        sexo = prompt("Error. Sólo M o F").toUpperCase();
+        sexo = prompt("Error. Solo M o F").toUpperCase();
     }
 
     switch(sexo)
@@ -40,7 +40,7 @@ function comenzarIngreso()
 
     while(estadoCivil < 1 || estadoCivil > 4 || isNaN(estadoCivil))
     {
-        estadoCivil = parseInt(prompt("Error. Ingrese un Estado Civil válido"));
+        estadoCivil = parseInt(prompt("Error. Ingrese un Estado Civil v\u00E1lido"));
     }
 
     switch(estadoCivil)
@@ -106,21 +106,21 @@ function comenzarIngreso()
 
     while(sueldo < 8000 || isNaN(sueldo))
     {
-        sueldo = parseFloat(prompt("Error. Ingrese un sueldo bruto válido"));
+        sueldo = parseFloat(prompt("Error. Ingrese un sueldo bruto v\u00E1lido"));
     }
 
     legajo = parseInt(prompt("Ingrese el legajo"));
 
     while(legajo < 1000 || legajo > 9999 || isNaN(legajo))
     {
-        legajo = parseInt(prompt("Error. Ingrese un legajo válido"));
+        legajo = parseInt(prompt("Error. Ingrese un legajo v\u00E1lido"));
     }
 
     nacionalidad = prompt("Ingrese la nacionalidad").toUpperCase();
 
     while(nacionalidad != 'A' && nacionalidad != 'E' && nacionalidad != 'N')
     {
-        nacionalidad = prompt("Error. Ingrese una nacionalidad válida").toUpperCase();
+        nacionalidad = prompt("Error. Ingrese una nacionalidad v\u00E1lida").toUpperCase();
     }
 
     switch(nacionalidad)

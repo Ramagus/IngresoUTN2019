@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Curso De Ingreso UTN FRA</title>
+
+		<!--Estilos-->
+		<link rel="stylesheet" type="text/css" href="../estilo.css">
+		<link rel="stylesheet" type="text/css" href="../animacion.css">
+		<!--Final de Estilos-->
+
+
+		<!--Lógica-Programación-->
+		<script type="text/javascript" src="jsEntradaSalida(8).js"></script>
+		<!--Final de Lógica-Programación-->
+	</head>
+
+	<body>
+		<div class="CajaUno animated bounceInDown">
+			<h1>Ingrese Dos N&uacute;meros</h1>
+			<form id="FormIngreso">
+				<font color="black"> Dividendo: Es el n&uacute;mero que se va a dividir</font>
+				<input type="text" placeholder="Ingrese Dividendo" id="numeroDividendo">
+				<font color="black"> Divisor: Es el n&uacute;mero por el cual se divide</font>
+				<input type="text" placeholder="Ingrese Divisor" id="numeroDivisor">
+			</form>
+		</div>
+
+		<div class="CajaUno animated bounceInLeft">
+			<button class="MiBotonUTN" onclick="sacarResto()"> Mostrar Resto ( % )</button>
+		</div>
+
+		<div class="CajaEnunciado animated bounceInLeft">
+			<h2>Enunciado:</h2>
+			<h3>
+				Debemos lograr tomar los n&uacute;meros por ID,
+				</br>transformarlos a enteros (parseInt)
+				</br>y realizar la operaci&oacute;n correcta
+				</br>Mostrar el resto entre el dividendo y
+				</br>el divisor
+			</h3>
+			<h3>
+				EJ.: "El Resto es 0"
+			</h3>
+		</div>
+
+		<div class="CajaAbajo animated bounceInUp">
+			<a class="MiBotonUTNLinea" onclick="location.href='index.html'" >Men&uacute; Ejercicios</a>
+		</div>
+	</body>
+</html>

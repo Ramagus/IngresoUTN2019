@@ -8,12 +8,12 @@ function mostrar()
     {
         case "Febrero":
 
-            alert("Este mes no tiene más de 29 días");
+            alert("Este mes no tiene m\u00E1s de 29 d\u00EDas");
 
             break;
 
         default:
 
-            alert("Este mes tiene 30 o 31 días");
+            alert("Este mes tiene 30 o 31 d\u00EDas");
     }
 }

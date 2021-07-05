@@ -8,7 +8,7 @@ function mostrar()
     {
         case "Enero": 
 
-            alert("Que comiences bien el año!!!");
+            alert("Que comiences bien el a\u00F1o!!!");
 
             break;
     

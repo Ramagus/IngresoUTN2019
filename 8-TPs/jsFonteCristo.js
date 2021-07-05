@@ -14,7 +14,7 @@ function numerosPares()
 
     if(isNaN(numero))
     {
-        alert("Error. Sólo número");
+        alert("Error. Solo n\u00FAmero");
     }
 
     else
@@ -27,7 +27,7 @@ function numerosPares()
             }
         }
 
-        alert("Cantidad de números pares: " + contadorPares);
+        alert("Cantidad de n\u00FAmeros pares: " + contadorPares);
     }
 }
 
@@ -39,7 +39,7 @@ function numerosImpares()
 
     if(isNaN(numero))
     {
-        alert("Error. Sólo número");
+        alert("Error. Solo n\u00FAmero");
     }
 
     else
@@ -52,7 +52,7 @@ function numerosImpares()
             }
         }
 
-        alert("Cantidad de números impares: " + contadorImpares);
+        alert("Cantidad de n\u00FAmeros impares: " + contadorImpares);
     }
 }
 
@@ -64,7 +64,7 @@ function numerosDivisibles()
 
     if(isNaN(numero))
     {
-        alert("Error. Sólo número");
+        alert("Error. Solo n\u00FAmero");
     }
 
     else
@@ -77,7 +77,7 @@ function numerosDivisibles()
             }
         }
 
-        alert("Cantidad de números divisibles: " + contadorDivisibles);
+        alert("Cantidad de n\u00FAmeros divisibles: " + contadorDivisibles);
     }
 }
 
@@ -89,7 +89,7 @@ function verificarPrimo()
 
     if(isNaN(numero))
     {
-        alert("Error. Sólo número");
+        alert("Error. Solo n\u00FAmero");
     }
 
     else
@@ -104,12 +104,12 @@ function verificarPrimo()
 
         if(contadorDePrimos == 2)
         {
-            alert("El número " + numero + " es un número primo");
+            alert("El n\u00FAmero " + numero + " es un n\u00FAmero primo");
         }
 
         else
         {
-            alert("El número " + numero + " no es un número primo");
+            alert("El n\u00FAmero " + numero + " no es un n\u00FAmero primo");
         }
     }
 }
@@ -124,7 +124,7 @@ function numerosPrimos()
 
     if(isNaN(numero))
     {
-        alert("Error. Sólo número");
+        alert("Error. Solo n\u00FAmero");
     }
 
     else
@@ -147,6 +147,6 @@ function numerosPrimos()
             }
         }
 
-        alert("Cantidad de números primos: " + contadorPrimos);
+        alert("Cantidad de n\u00FAmeros primos: " + contadorPrimos);
     }
 }

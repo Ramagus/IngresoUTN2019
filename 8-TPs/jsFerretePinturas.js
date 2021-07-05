@@ -8,14 +8,14 @@ function fahrenheitCentigrados()
 
     if(isNaN(temperatura))
     {
-        alert("Error. Sólo número");
+        alert("Error. Solo n\u00FAmero");
     }
 
     else
     {
         centigrados = (temperatura - 32) / 1.8;
 
-        alert(temperatura + " º Fahrenheit son " + centigrados.toFixed(1) + " º Centígrados");
+        alert(temperatura + " º Fahrenheit son " + centigrados.toFixed(1) + " º Cent\u00EDgrados");
     }
 }
 
@@ -27,13 +27,13 @@ function centigradosFahrenheit()
 
     if(isNaN(temperatura))
     {
-        alert("Error. Sólo número");
+        alert("Error. Solo n\u00FAmero");
     }
 
     else
     {
         fahrenheit = (temperatura * 1.8) + 32;
 
-        alert(temperatura + " º Centígrados son " + fahrenheit.toFixed(1) + " º Fahrenheit");
+        alert(temperatura + " º Cent\u00EDgrados son " + fahrenheit.toFixed(1) + " º Fahrenheit");
     }
 }

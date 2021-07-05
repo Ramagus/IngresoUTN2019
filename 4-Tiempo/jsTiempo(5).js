@@ -2,7 +2,7 @@ var miTemporizador;
 
 function inicio()
 {
-    alert("Función Inicio");
+    alert("Funci\u00F3n Inicio");
 
     miTemporizador = setTimeout(segundosEnElAire, 3000);
 }
@@ -10,11 +10,4 @@ function inicio()
 function segundosEnElAire()
 {
     alert("Bienvenido a la UTN FRA");  
-}
-
-function fin()
-{
-    alert("Función Fin");
-
-    clearTimeout(miTemporizador);
 }

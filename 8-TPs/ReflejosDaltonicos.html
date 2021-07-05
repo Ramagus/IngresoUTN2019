@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Curso De Ingreso UTN FRA</title>
+
+		<!--Estilos-->
+		<link rel="stylesheet" type="text/css" href="../estilo.css">
+		<link rel="stylesheet" type="text/css" href="../animacion.css">
+		<!--final de Estilos-->
+
+
+		<!--Lógica-Programación-->
+		<script type="text/javascript" src="jsReflejosDaltonicos.js"></script>
+        <!--Final de Lógica-Programación-->
+	</head>
+
+	<body onload="comenzar()">
+		<div class="CajaUno animated bounceInDown">
+			<h1>Reflejos Dalt&oacute;nicos</h1>
+			<form id="FormIngreso">
+				<font color="black"> Color Elegido</font>
+				<input type="text" readonly id="colorElegido">
+			</form>
+
+			<button style="background:blue;" class="MiBotonUTNJuego animated tada swing wobble" onclick="responder('azul')" >Azul</button>
+			<button style="background:yellow; color:black;" class="MiBotonUTNJuego animated shake swing " onclick="responder('amarillo')" >Amarillo</button>
+			<button style="background:brown;" class="MiBotonUTNJuego animated swing shake" onclick="responder('marr\u00F3n')" >Marr&oacute;n</button>
+			<button style="background:green;" class="MiBotonUTNJuego animated swing shake" onclick="responder('verde')" >Verde</button>
+			<button style="background:skyblue; color:black;" class="MiBotonUTNJuego animated tada swing" onclick="responder('celeste')" >Celeste</button>
+			<button style="background:red;" class="MiBotonUTNJuego animated swing shake" onclick="responder('rojo')" >Rojo</button>
+			<button style="background:Pink; color:black;" class="MiBotonUTNJuego animated hinge"  >Rosa</button>
+		</div>
+
+		<div class="CajaUno animated bounceInLeft"></div>
+
+		<div class="CajaEnunciado animated bounceInLeft">
+			<h2>Enunciado:</h2>
+			<h3>
+				En la pantalla, se mostrar&aacute;n 6 botones de distintos colores.
+				Al comenzar el juego, se mostrar&aacute; el texto de un color entre los 6 posibles para que el jugador sepa qu&eacute; bot&oacute;n tocar
+				</br>Al tocar el bot&oacute;n correcto, se informar&aacute; cu&aacute;nto tiempo tard&oacute;
+			</h3>
+		</div>
+
+		<div class="CajaAbajo animated bounceInUp">
+			<a style=" margin-top: -10%;" class="MiBotonUTNLinea" onclick="location.href='index.html'" >Men&uacute; TPs</a>	
+		</div>
+	</body>
+</html>

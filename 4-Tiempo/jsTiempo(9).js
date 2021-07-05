@@ -1,4 +1,3 @@
-var miTemporizador;
 var tiempoInicio;
 var tiempoFinal;
 var resultado;
@@ -7,14 +6,14 @@ function inicio()
 {
     var random = Math.floor(Math.random() * 12000 + 2000);
     
-    alert("Función Inicio");
+    alert("Funci\u00F3n Inicio");
 
-    miTemporizador = setTimeout(segundosEnElAire, random);
+    setTimeout(segundosEnElAire, random);
 }
 
 function segundosEnElAire()
 {
-    document.getElementById("secreto").style.visibility = "visible"; 
+    document.getElementById("secreto").style.visibility = "visible";
 
     tiempoInicio = new Date();
 

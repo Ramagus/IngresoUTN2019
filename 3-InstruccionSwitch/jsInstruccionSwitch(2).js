@@ -20,7 +20,7 @@ function mostrar()
         case "Julio": 
         case "Agosto":
 
-            alert("Abrigate que hace frío");
+            alert("Abrigate que hace fr\u00EDo");
 
             break;
 
@@ -29,7 +29,7 @@ function mostrar()
         case "Noviembre":
         case "Diciembre":
 
-            alert("Ya pasamos el frío, ahora calor!!!");
+            alert("Ya pasamos el fr\u00EDo, ahora calor!!!");
 
             break;
     }

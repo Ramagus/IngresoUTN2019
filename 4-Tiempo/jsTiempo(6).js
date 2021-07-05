@@ -2,7 +2,7 @@ var miTemporizador;
 
 function inicio()
 {
-    alert("Función Inicio");
+    alert("Funci\u00F3n Inicio");
 
     document.getElementById("secreto").style.visibility = "hidden";
 
@@ -13,12 +13,12 @@ function segundosEnElAire()
 {
     alert("Bienvenido a la UTN FRA");
 
-    document.getElementById("secreto").style.visibility = "visible"; 
+    document.getElementById("secreto").style.visibility = "visible";
 }
 
 function fin()
 {
-    alert("Función Fin");
-
     clearTimeout(miTemporizador);
+    
+    alert("Funci\u00F3n Fin");
 }

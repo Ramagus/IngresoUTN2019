@@ -1,24 +1,23 @@
-var miTemporizador;
 var tiempoInicio;
 var tiempoFinal;
 var resultado;
 
 function inicio()
 {
-    alert("Función Inicio");
+    alert("Funci\u00F3n Inicio");
 
-    miTemporizador = setTimeout(segundosEnElAire, 3000);
+    document.getElementById("secreto").style.visibility = "hidden";
+
+    setTimeout(segundosEnElAire, 3000);
 }
 
 function segundosEnElAire()
 {
-    document.getElementById("secreto").style.visibility = "visible"; 
+    document.getElementById("secreto").style.visibility = "visible";
 
     tiempoInicio = new Date();
 
     tiempoInicio = tiempoInicio.getTime();
-
-    alert(tiempoInicio);
 }
 
 function contarMilisegundos()

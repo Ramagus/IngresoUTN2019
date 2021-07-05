@@ -14,13 +14,13 @@ function mostrar()
         case "Octubre":
         case "Diciembre":
                     
-            alert("Tiene 31 días");
+            alert("Tiene 31 d\u00EDas");
     
             break;
 
         case "Febrero":
 
-            alert("Tiene 28 días");
+            alert("Tiene 28 d\u00EDas");
         
             break;
         
@@ -29,7 +29,7 @@ function mostrar()
         case "Septiembre":
         case "Noviembre":
 
-            alert("Tiene 30 días");
+            alert("Tiene 30 d\u00EDas");
             
             break;        
     }

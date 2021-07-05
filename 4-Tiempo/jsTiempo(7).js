@@ -1,25 +1,23 @@
-var miTemporizador;
 var tiempoInicio;
 var tiempoFinal;
+var resultado;
 
 function inicio()
 {
-    alert("Función Inicio");
+    alert("Funci\u00F3n Inicio");
 
     document.getElementById("secreto").style.visibility = "hidden";
 
-    miTemporizador = setTimeout(segundosEnElAire, 3000);
+    setTimeout(segundosEnElAire, 3000);
 }
 
 function segundosEnElAire()
 {
-    document.getElementById("secreto").style.visibility = "visible"; 
+    document.getElementById("secreto").style.visibility = "visible";
 
     tiempoInicio = new Date();
 
     tiempoInicio = tiempoInicio.getTime();
-
-    alert(tiempoInicio);
 }
 
 function fin()
@@ -28,5 +26,7 @@ function fin()
 
     tiempoFinal = tiempoFinal.getTime();
 
-    alert(tiempoFinal - tiempoInicio);
+    resultado = tiempoFinal - tiempoInicio;
+
+    alert("Tiempo: " + resultado);
 }

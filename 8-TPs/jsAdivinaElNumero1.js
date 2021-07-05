@@ -8,7 +8,7 @@ function comenzar()
 	 
     //alert(numeroSecreto);
     
-    alert("Número secreto generado");
+    alert("N\u00FAmero secreto generado");
 }
 
 function verificar()
@@ -17,7 +17,7 @@ function verificar()
 
     if(numeroUsuario < 1 || numeroUsuario > 100 || isNaN(numeroUsuario))
     {
-        alert("Error. Sólo número de 1 al 100");
+        alert("Error. Solo n\u00FAmero de 1 al 100");
     }
 
     else
@@ -26,7 +26,7 @@ function verificar()
 
         if(numeroUsuario == numeroSecreto)
         {
-            alert("Usted es un ganador!!! y en sólo " + contadorIntentos + " intentos");
+            alert("Usted es un ganador!!! y en solo " + contadorIntentos + " intentos");
         }
 
         else if(numeroUsuario < numeroSecreto)
@@ -36,7 +36,7 @@ function verificar()
 
         else
         {
-            alert("Se pasó...");
+            alert("Se pas\u00F3...");
         }
 
         document.getElementById("intentos").value = contadorIntentos;

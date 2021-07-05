@@ -8,7 +8,7 @@ function comenzar()
 	 
     //alert(numeroSecreto);
     
-    alert("Número secreto generado");
+    alert("N\u00FAmero secreto generado");
 }
 
 function verificar()
@@ -17,7 +17,7 @@ function verificar()
   
 	if(numeroUsuario < 1 || numeroUsuario > 100 || isNaN(numeroUsuario))
     {
-        alert("Error. Sólo número de 1 al 100");
+        alert("Error. Solo n\u00FAmero de 1 al 100");
 	}
 	
 	else
@@ -26,12 +26,12 @@ function verificar()
 
 		if(numeroUsuario < numeroSecreto)
 		{
-			alert("El número secreto es más grande");
+			alert("El n\u00FAmero secreto es m\u00E1s grande");
 		}
 
 		else if(numeroUsuario > numeroSecreto)
 		{
-			alert("El número secreto es más chico");
+			alert("El n\u00FAmero secreto es m\u00E1s chico");
 		}
 
 		else
@@ -40,13 +40,13 @@ function verificar()
 			{
 				case 1:
 				
-					alert("Usted es un Psíquico");
+					alert("Usted es un Ps\u00EDquico");
 				
 					break;
 				
 				case 2:
 				
-					alert("Excelente percepción");
+					alert("Excelente percepci\u00F3n");
 				
 					break;
 				
@@ -58,13 +58,13 @@ function verificar()
 				
 				case 4:
 				
-					alert("Excelente técnica");
+					alert("Excelente t\u00E9cnica");
 				
 					break;
 				
 				case 5:
 				
-					alert("Usted está en la media");
+					alert("Usted est\u00E1 en la media");
 				
 					break;
 				
@@ -74,7 +74,7 @@ function verificar()
 				case 9:
 				case 10:
 				
-					alert("Falta técnica");
+					alert("Falta t\u00E9cnica");
 				
 					break;
 				

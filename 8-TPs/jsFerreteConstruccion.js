@@ -10,12 +10,12 @@ function rectangulo()
     
     if(largo < 1 || isNaN(largo))
     {
-        alert("Error. Ingrese una medida válida de largo");
+        alert("Error. Ingrese una medida v\u00E1lida de largo");
     }
 
     if(ancho < 1 || isNaN(ancho))
     {
-        alert("Error. Ingrese una medida válida de ancho");
+        alert("Error. Ingrese una medida v\u00E1lida de ancho");
     }
 
     if(largo > 0 && ancho > 0)
@@ -38,7 +38,7 @@ function circulo()
 
     if(radio < 1 || isNaN(radio))
     {
-        alert("Error. Ingrese una medida válida de radio");
+        alert("Error. Ingrese una medida v\u00E1lida de radio");
     }
 
     else
@@ -64,12 +64,12 @@ function materiales()
     
     if(largo < 1 || isNaN(largo))
     {
-        alert("Error. Ingrese una medida válida de largo");
+        alert("Error. Ingrese una medida v\u00E1lida de largo");
     }
 
     if(ancho < 1 || isNaN(ancho))
     {
-        alert("Error. Ingrese una medida válida de ancho");
+        alert("Error. Ingrese una medida v\u00E1lida de ancho");
     }
 
     if(largo > 0 && ancho > 0)
