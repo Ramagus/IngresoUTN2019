@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Curso De Ingreso UTN FRA</title>
+
+		<!--Estilos-->
+		<link rel="stylesheet" type="text/css" href="../estilo.css">
+		<link rel="stylesheet" type="text/css" href="../animacion.css">
+		<!--Final de Estilos-->
+
+
+		<!--Lógica-Programación-->
+		<script type="text/javascript" src="jsTiempo(10).js"></script>
+		<!--Final de Lógica-Programación-->
+	</head>
+
+	<body onload="inicio()">
+		<div class="CajaUno animated bounceInDown">
+			<h1>Contar El Tiempo</h1>
+		</div>
+
+		<div class="CajaUno animated bounceInLeft">			
+			<button id="secreto" style="visibility:hidden;" class="MiBotonUTN" onclick="contarMilisegundos()"> El Oculto</button>
+		</div>
+
+		<div class="CajaEnunciado animated bounceInLeft">
+			<h2>Enunciado:</h2>
+			<h3>
+				Continuando con el ejercicio anterior,
+				</br>sum&aacute;ndole los siguientes mensajes:
+				</br>Si tardo entre 0 y 500 milisegundos:
+				</br>"Usted es Flash"
+				</br>Si tardo entre 501 y 1000 milisegundos:
+				</br>"Bien ah&iacute;, segu&iacute; practicando"
+				</br>Si tardo entre 1001 y 3000 milisegundos:
+				</br>"¿Tenemos los deditos duros?"
+				</br>Si tardo más de 3000 milisegundos:
+				</br>"¿Te quedaste dormido?"	
+			</h3>
+		</div>
+
+		<div class="CajaAbajo animated bounceInUp">
+			<a class="MiBotonUTNLinea" onclick="location.href='index.html'" >Men&uacute; Ejercicios</a>
+		</div>
+	</body>
+</html>

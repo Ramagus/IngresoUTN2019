@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Curso De Ingreso UTN FRA</title>
+
+		<!--Estilos-->
+		<link rel="stylesheet" type="text/css" href="../estilo.css">
+		<link rel="stylesheet" type="text/css" href="../animacion.css">
+		<!--Final de Estilos-->
+
+
+		<!--Lógica-Programación-->
+		<script type="text/javascript" src="jsTiempo(9).js"></script>
+		<!--Final de Lógica-Programación-->
+	</head>
+
+	<body onload="inicio()">
+		<div class="CajaUno animated bounceInDown">
+			<h1>Contar El Tiempo</h1>
+		</div>
+
+		<div class="CajaUno animated bounceInLeft">			
+			<button id="secreto" style="visibility:hidden;" class="MiBotonUTN" onclick="contarMilisegundos()"> El Oculto</button>
+		</div>
+
+		<div class="CajaEnunciado animated bounceInLeft">
+			<h2>Enunciado:</h2>
+			<h3>
+				En el evento onLoad del 'BODY', invocar
+				</br>a la función "inicio"
+				</br>En esta funci&oacute;n, se crear&aacute; un n&uacute;mero
+				</br>RANDOM entre 2000 y 12000
+				</br>(para los milisegundos), y con
+				</br>este RANDOM disparamos un setTimeout
+				</br>para la función "segundosEnElAire"
+				</br>Esta debe mostrar el bot&oacute;n EL OCULTO
+				</br>y comenzar a tomar el tiempo
+				</br>Por &uacute;ltimo, el bot&oacute;n EL OCULTO
+				</br>disparar&aacute; la funci&oacute;n "contarMilisegundos",
+				</br>que mostrar&aacute; el tiempo transcurrido
+			</h3>
+		</div>
+
+		<div class="CajaAbajo animated bounceInUp">
+			</br></br>
+			<a class="MiBotonUTNLinea" onclick="location.href='index.html'" >Men&uacute; Ejercicios</a>
+		</div>
+	</body>
+</html>

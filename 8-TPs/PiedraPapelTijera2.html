@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Curso De Ingreso UTN FRA</title>
+
+		<!--Estilos-->
+		<link rel="stylesheet" type="text/css" href="../estilo.css">
+		<link rel="stylesheet" type="text/css" href="../animacion.css">
+		<!--final de Estilos-->
+
+
+		<!--Lógica-Programación-->
+		<script type="text/javascript" src="jsPiedraPapelTijera2.js"></script>
+        <!--Final de Lógica-Programación-->
+	</head>
+
+	<body onload="comenzar()">
+		<div class="CajaUno animated bounceInDown">
+			<h1>Piedra, Papel o Tijera 2.0</h1>
+			<form id="FormIngreso">
+				<font color="black"> Juegos ganados</font>
+				<input type="text" readonly id="ganadas">
+				<font color="black"> Juegos perdidos</font>
+				<input type="text" readonly id="perdidas">
+				<font color="black"> Juegos empatados</font>
+				<input type="text" readonly id="empatadas">
+				<center><img src="imagenes/interrogacion.jpg" ></center>
+			</form>
+		</div>
+		<div class="CajaUno animated bounceInLeft">
+			<img class="PiedraPapelTijera animated zoomInRight " src="imagenes/piedra.jpg" onclick="piedra()">
+			<img class="PiedraPapelTijera animated zoomInUp" src="imagenes/papel.jpg" onclick="papel()">
+			<img class="PiedraPapelTijera animated zoomInLeft"  src="imagenes/tijera.jpg" onclick="tijera()">
+		</div>
+
+		<div class="CajaEnunciado animated bounceInLeft">
+			<h2>Enunciado:</h2>
+			<h3>
+				3. Piedra, Papel o Tijera (v 2.0):
+				</br>Ahora debemos informar cu&aacute;ntas veces se gan&oacute;, perdi&oacute; o empat&oacute;
+				desde la &uacute;ltima recarga de p&aacute;gina
+			</h3>
+		</div>
+
+		<div class="CajaAbajo animated bounceInUp">
+			<a style=" margin-top: -10%;" class="MiBotonUTNLinea" onclick="location.href='index.html'" >Men&uacute; TPs</a>	
+		</div>
+	</body>
+</html>

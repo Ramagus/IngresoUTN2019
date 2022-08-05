@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Curso De Ingreso UTN FRA</title>
+
+		<!--Estilos-->
+		<link rel="stylesheet" type="text/css" href="../estilo.css">
+		<link rel="stylesheet" type="text/css" href="../animacion.css">
+		<!--final de Estilos-->
+
+
+		<!--Lógica-Programación-->
+		<script type="text/javascript" src="jsFonteCristo.js"></script>
+        <!--Final de Lógica-Programación-->
+	</head>
+	
+	<body>
+		<div class="CajaUno animated bounceInDown">
+			<h1>Instituto Matem&aacute;tico FonteCristo</h1>
+			<form id="FormIngreso">
+				<font color="black"> N&uacute;mero Positivo</font>
+				<input type="text" placeholder="Ingrese N&uacute;mero Positivo" id="numero">
+			</form>
+		</div>
+
+		<div class="CajaUno animated bounceInLeft">
+			<button class="MiBotonUTN" onclick="numerosPares()" >A-N&uacute;meros Pares</button>
+			<button class="MiBotonUTN" onclick="numerosImpares()" >B-N&uacute;meros Impares</button>
+			<button class="MiBotonUTN" onclick="numerosDivisibles()" >C-N&uacute;meros Divisibles</button>
+			<button class="MiBotonUTN" onclick="verificarPrimo()" >D-Verificar si es primo</button>
+			<button class="MiBotonUTN" onclick="numerosPrimos()" >e-N&uacute;meros Primos</button>
+		</div>
+
+		<div class="CajaEnunciado animated bounceInLeft">
+			<h2>Enunciado:</h2>
+			<h3>
+				El departamento de N&Uacute;MEROS ESPECIALES del Instituto Matemático "FonteCristo" nos est&aacute; pidiendo una aplicaci&oacute;n que verifique las distintas cualidades de los n&uacute;meros
+				<br>13.	Para cada una de estas acciones, debemos realizar la l&oacute;gica para verificar las cualidades pedidas:
+				<br>A. Se pedir&aacute; un n&uacute;mero positivo y se mostrar&aacute; la cantidad de n&uacute;meros pares desde el n&uacute;mero ingresado hasta el cero
+				<br>B. Se pedir&aacute; un n&uacute;mero positivo y se mostrar&aacute; la cantidad de n&uacute;meros impares desde el n&uacute;mero ingresado hasta el cero
+				<br>C. Se pedir&aacute; un n&uacute;mero positivo y se mostrar&aacute; la cantidad de n&uacute;meros divisibles de este n&uacute;mero que se encuentran desde el 1 al 100
+				<br>D. Se pedir&aacute; un n&uacute;mero positivo y se mostrar&aacute; si el n&uacute;mero es un n&uacute;mero primo o no
+				<br>E. Se pedir&aacute; un n&uacute;mero positivo y se mostrar&aacute; la cantidad de n&uacute;meros primos desde el n&uacute;mero ingresado hasta el cero
+			</h3>
+		</div>
+
+		<div class="CajaAbajo animated bounceInUp">
+			<a class="MiBotonUTNLinea" style="margin-top: 55%;" onclick="location.href='index.html'" >Men&uacute; TPs</a>	
+		</div>
+	</body>
+</html>

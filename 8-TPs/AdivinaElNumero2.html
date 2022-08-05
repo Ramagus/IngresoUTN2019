@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Curso De Ingreso UTN FRA</title>
+
+		<!--Estilos-->
+		<link rel="stylesheet" type="text/css" href="../estilo.css">
+		<link rel="stylesheet" type="text/css" href="../animacion.css">
+		<!--final de Estilos-->
+
+
+		<!--Lógica-Programación-->
+		<script type="text/javascript" src="jsAdivinaElNumero2.js"></script>
+        <!--Final de Lógica-Programación-->
+	</head>
+
+	<body>
+		<div class="CajaUno animated bounceInDown">
+			<h1>Adivina el n&uacute;mero 2.0</h1>
+			<form id="FormIngreso">
+				<font color="black"> N&uacute;mero</font>
+				<input type="text" placeholder="Ingrese N&uacute;mero" id="numero">
+				<font color="black"> Intentos</font>
+				<input type="text" placeholder="Intentos" readonly id="intentos">
+			</form>
+		</div>
+
+		<div class="CajaUno animated bounceInLeft">
+			<button style="height:5em;" class="MiBotonUTN"  onclick="verificar()" >Verificar</button>
+			<button class="MiBotonUTN" onclick="comenzar()" >Comenzar</button>
+		</div>
+
+		<div class="CajaEnunciado animated bounceInLeft">
+			<h2>Enunciado:</h2>
+			<h3>
+				1. Adivina el n&uacute;mero (v 2.0):
+				<br>En esta oportunidad, el juego evaluar&aacute; tus aptitudes a partir de la cantidad de intentos,
+				por lo cu&aacute;l se informar&aacute; lo siguiente:
+				<br>1° Intento: "Usted es un Ps&iacute;quico"
+				<br>2° Intento: "Excelente percepci&oacute;n"
+				<br>3° Intento: "Esto es suerte"
+				<br>4° Intento: "Excelente t&eacute;cnica"
+				<br>5° Intento: "Usted est&aacute; en la media"
+				<br>Desde 6 intentos hasta 10: "Falta t&eacute;cnica"
+				<br>M&aacute;s de 10 intentos: "Afortunado en el amor!!!"
+			</h3>
+		</div>
+
+		<div class="CajaAbajo animated bounceInUp">
+			<a class="MiBotonUTNLinea" onclick="location.href='index.html'" >Men&uacute; TPs</a>	
+		</div>
+	</body>
+</html>

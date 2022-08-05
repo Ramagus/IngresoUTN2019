@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Curso De Ingreso UTN FRA</title>
+
+		<!--Estilos-->
+		<link rel="stylesheet" type="text/css" href="../estilo.css">
+		<link rel="stylesheet" type="text/css" href="../animacion.css">
+		<!--final de Estilos-->
+
+
+		<!--Lógica-Programación-->
+		<script type="text/javascript" src="jsAgilidadAritmetica2.js"></script>
+        <!--Final de Lógica-Programación-->
+	</head>
+
+	<body onload="comenzar()">
+		<div class="CajaUno animated bounceInDown">
+			<h1>Agilidad Aritm&eacute;tica 2.0</h1>
+			<form id="FormIngreso">
+				<font color="black"> Primer N&uacute;mero</font>
+				<input type="text" readonly id="PrimerNumero">
+				<font color="black"> Operador</font>
+				<input type="text" readonly id="Operador">
+				<font color="black"> Segundo N&uacute;mero</font>
+				<input type="text" readonly id="SegundoNumero">
+				<font color="black"> Tu respuesta</font>
+				<input type="text" id="Respuesta" placeholder="Tu respuesta">
+				<center><img src="imagenes/interrogacion.jpg" ></center>
+			</form>
+
+			<button class="MiBotonUTN" onclick="responder()" >Aceptar</button>
+		</div>
+
+		<div class="CajaUno animated bounceInLeft"></div>
+
+		<div class="CajaEnunciado animated bounceInLeft">
+			<h2>Enunciado:</h2>
+			<h3>
+				Adem&aacute;s de lo anterior, ahora se agregar&aacute; un temporizador que a los 5(cinco) segundos,
+				dar&aacute; por terminado el juego y se verificar&aacute; si el resultado ingresado es el correcto en ese lapso de tiempo
+			</h3>
+		</div>
+
+		<div class="CajaAbajo animated bounceInUp">
+			<a style=" margin-top: -10%;" class="MiBotonUTNLinea" onclick="location.href='index.html'" >Men&uacute; TPs</a>	
+		</div>
+	</body>
+</html>

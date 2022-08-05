@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Curso De Ingreso UTN FRA</title>
+
+		<!--Estilos-->
+		<link rel="stylesheet" type="text/css" href="../estilo.css">
+		<link rel="stylesheet" type="text/css" href="../animacion.css">
+		<!--final de Estilos-->
+
+
+		<!--Lógica-Programación-->
+		<script type="text/javascript" src="jsRisingBTL.js"></script>
+        <!--Final de Lógica-Programación-->
+	</head>
+
+	<body>
+		<div class="CajaUno animated bounceInDown">
+			<h1>Estad&iacute;sticas y Censos Rising BTL</h1>
+			<form id="FormIngreso">
+				<font color="black"> Edad Validada</font>
+				<input type="text" readonly placeholder="Edad Validada" id="Edad">
+				<font color="black"> Sexo Validado</font>
+				<input type="text" readonly placeholder="Sexo Validado" id="Sexo">
+				<font color="black"> Estado Civil Validada</font>
+				<input type="text" readonly placeholder="Estado Civil Validado" id="EstadoCivil">
+				<font color="black"> Sueldo Bruto Validado</font>
+				<input type="text" readonly placeholder="Sueldo Bruto Validado" id="Sueldo">
+				<font color="black"> Legajo Validado</font>
+				<input type="text" readonly placeholder="Legajo Validado" id="Legajo">
+				<font color="black"> Nacionalidad Validada</font>
+				<input type="text" readonly placeholder="Nacionalidad Validada" id="Nacionalidad">
+			</form>
+		</div>
+
+		<div class="CajaUno animated bounceInLeft">
+			<button class="MiBotonUTN" onclick="comenzarIngreso()" >Comenzar Ingreso</button>
+		</div>
+
+		<div class="CajaEnunciado animated bounceInLeft">
+			<h2>Enunciado:</h2>
+			<h3>
+				Rising BTL. Empresa dedicada a la toma de datos para realizar estad&iacute;sticas y censos nos pide realizar una carga de datos
+				validada e ingresada por ventanas emergentes solamente (para evitar hacking y cargas maliciosas), y luego asignarla a cuadros de textos
+				<br>12. Los datos requeridos son los siguientes:
+				<br>A. Edad: Entre 18 y 90 a&ntilde;os inclusive
+				<br>B. Sexo:
+				<br>'M' para Masculino
+				<br>'F' para Femenino
+				<br>C. Estado Civil:
+				<br>1 - Para soltero
+				<br>2 - Para casados
+				<br>3 - Para divorciados
+				<br>4 - Para viudos
+				<br>D. Sueldo Bruto: No menor a 8000
+				<br>E. N&uacute;mero De Legajo: Num&eacute;rico de 4 cifras, sin ceros a la izquierda
+				<br>F. Nacionalidad:
+				<br>'A' para Argentinos
+				<br>'E' para Extranjeros
+				<br>'N' para Nacionalizados
+			</h3>
+		</div>
+
+		<div class="CajaAbajo animated bounceInUp">
+			<a class="MiBotonUTNLinea" style="margin-top: 0%;" onclick="location.href='index.html'" >Men&uacute; TPs</a>	
+		</div>
+	</body>
+</html>

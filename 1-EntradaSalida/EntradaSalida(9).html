@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Curso De Ingreso UTN FRA</title>
+
+		<!--Estilos-->
+		<link rel="stylesheet" type="text/css" href="../estilo.css">
+		<link rel="stylesheet" type="text/css" href="../animacion.css">
+		<!--Final de Estilos-->
+
+
+		<!--Lógica-Programación-->
+		<script type="text/javascript" src="jsEntradaSalida(9).js"></script>
+		<!--Final de Lógica-Programación-->
+	</head>
+
+	<body>
+		<div class="CajaUno animated bounceInDown">
+			<h1>Ingrese El Sueldo</h1>
+			<form id="FormIngreso">
+				<font color="black"> Sueldo</font>
+				<input type="text" placeholder="Ingrese Sueldo" id="sueldo">
+				<font color="black"> Resultado</font>
+				<input type="text" readonly placeholder="Resultado" id="resultado">
+			</form>
+		</div>
+
+		<div class="CajaUno animated bounceInLeft">	
+			<button class="MiBotonUTN" onclick="mostrarAumento()"> Mostrar Aumento</button>
+		</div>
+		
+		<div class="CajaEnunciado animated bounceInLeft">
+			<h2>Enunciado:</h2>
+			<h3>
+				Debemos lograr tomar el sueldo por ID,
+				</br>transformarlo a flotante (parseFloat)
+				</br>y luego, mostrar el nuevo sueldo con
+				</br>un aumento del 10%, en el cuadro de texto
+				</br>"RESULTADO"
+			</h3>	
+		</div>
+
+		<div class="CajaAbajo animated bounceInUp">
+			<a class="MiBotonUTNLinea" onclick="location.href='index.html'" >Men&uacute; Ejercicios</a>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Curso De Ingreso UTN FRA</title>
+
+		<!--Estilos-->
+		<link rel="stylesheet" type="text/css" href="../estilo.css">
+		<link rel="stylesheet" type="text/css" href="../animacion.css">
+		<!--Final de Estilos-->
+
+
+		<!--Lógica-Programación-->
+		<script type="text/javascript" src="jsEntradaSalida(7).js"></script>
+		<!--Final de Lógica-Programación-->
+	</head>
+
+	<body>
+		<div class="CajaUno animated bounceInDown">
+			<h1>Ingrese Dos N&uacute;meros</h1>
+			<form id="FormIngreso">
+				<font color="black"> N&uacute;mero 1</font>
+				<input type="text" placeholder="Ingrese N&uacute;mero Uno" id="numeroUno">
+				<font color="black"> N&uacute;mero 2</font>
+				<input type="text" placeholder="Ingrese N&uacute;mero Dos" id="numeroDos">
+			</form>
+		</div>
+
+		<div class="CajaUno animated bounceInLeft">
+			<button class="MiBotonUTN" onclick="sumar()"> Sumar ( + )</button>
+			<button class="MiBotonUTN" onclick="restar()"> Restar ( - )</button>
+			<button class="MiBotonUTN" onclick="multiplicar()"> Multiplicar ( * )</button>
+			<button class="MiBotonUTN" onclick="dividir()"> Dividir ( / )</button>
+		</div>
+
+		<div class="CajaEnunciado animated bounceInLeft">
+			<h2>Enunciado:</h2>
+			<h3>
+				Debemos lograr tomar los n&uacute;meros por ID,
+				</br>transformarlos a enteros (parseInt)
+				</br>y realizar la operaci&oacute;n correcta
+				</br>Mostrar el resultado por medio de "ALERT"
+			</h3>
+			<h3>
+				EJ.: "La Resta es 750"
+			</h3>	
+		</div>
+
+		<div class="CajaAbajo animated bounceInUp">
+			<a class="MiBotonUTNLinea" onclick="location.href='index.html'" >Men&uacute; Ejercicios</a>	
+		</div>
+	</body>
+</html>
